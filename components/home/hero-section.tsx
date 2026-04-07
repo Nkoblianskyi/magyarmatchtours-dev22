@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-landscape.jpg"
-          alt="Magyar természeti táj — dombos vidék és erdei ösvény"
+          alt="Magyar természeti táj - dombos vidék és erdei ösvény"
           fill
           priority
           className="object-cover object-center"
@@ -46,7 +46,7 @@ export default function HeroSection() {
               Ahol az út maga a cél
             </h1>
             <p className="font-mono text-sm md:text-base text-white/65 leading-relaxed mb-10">
-              Nem a sebességért, nem a rekordokért — hanem az érzésért. Egyedi természetjáró utakon vezetünk át Magyarország rejtekaján, ahol minden fordulat egy új fejezet a saját történetedben.
+              Nem a sebességért, nem a rekordokért - hanem az érzésért. Egyedi természetjáró utakon vezetünk át Magyarország rejtekaján, ahol minden fordulat egy új fejezet a saját történetedben.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

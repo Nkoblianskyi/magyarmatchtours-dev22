@@ -18,14 +18,14 @@ const insights = [
   {
     num: '03',
     title: 'A lassítás technikája',
-    body: 'A természetben nincs "időhiány" — csak mi hozzuk magunkkal. Az ösvény megtanít elengedni. Ez az egyik legfontosabb készség, amit egy hosszú túra ad.',
+    body: 'A természetben nincs "időhiány" - csak mi hozzuk magunkkal. Az ösvény megtanít elengedni. Ez az egyik legfontosabb készség, amit egy hosszú túra ad.',
     image: '/images/river-path.jpg',
     alt: 'Folyóparti ösvény fűzfák alatt, reggeli fényben',
   },
   {
     num: '04',
     title: 'Éjszakák a szabad ég alatt',
-    body: 'A sátor nem szállás — portál. Amikor lehunyt szemmel hallgatod az erdőt, megérted, miért érdemes volt eljönni. A természetes hangok más minőségű álmot hoznak.',
+    body: 'A sátor nem szállás - portál. Amikor lehunyt szemmel hallgatod az erdőt, megérted, miért érdemes volt eljönni. A természetes hangok más minőségű álmot hoznak.',
     image: '/images/camp-evening.jpg',
     alt: 'Erdei tábortűz fény alkonyatban',
   },

@@ -6,31 +6,31 @@ import Footer from '@/components/footer'
 import CookieBanner from '@/components/cookie-banner'
 
 export const metadata: Metadata = {
-  title: 'Rólunk — Magyar Match Tours',
+  title: 'Rólunk - Magyar Match Tours',
   description:
-    'Megismerjük, kik vagyunk és miért csináljuk. Szerzői természetjáró kalandtúrák Magyarországon — az ösvény nem ér véget a célnál.',
+    'Megismerjük, kik vagyunk és miért csináljuk. Szerzői természetjáró kalandtúrák Magyarországon - az ösvény nem ér véget a célnál.',
 }
 
 const values = [
   {
     num: '01',
     title: 'Szerzőiség',
-    body: 'Minden útvonalunkat saját magunk tervezzük és járjuk be. Nincs sablon, nincs tömegturizmus — csak élő terep és mély terepismereten alapuló alkotás.',
+    body: 'Minden útvonalunkat saját magunk tervezzük és járjuk be. Nincs sablon, nincs tömegturizmus - csak élő terep és mély terepismereten alapuló alkotás.',
   },
   {
     num: '02',
     title: 'Jelenlét',
-    body: 'Nem az a célunk, hogy a legtöbb kilométert teljesítsd, hanem hogy valóban ott legyél — a természetben, önmagadban, a pillanatban.',
+    body: 'Nem az a célunk, hogy a legtöbb kilométert teljesítsd, hanem hogy valóban ott legyél - a természetben, önmagadban, a pillanatban.',
   },
   {
     num: '03',
     title: 'Kis csoportok',
-    body: 'Szándékosan tartjuk alacsonyan a csoportlétszámot. A természet nem tömeges élmény — és azt hisszük, a te utazásod sem az.',
+    body: 'Szándékosan tartjuk alacsonyan a csoportlétszámot. A természet nem tömeges élmény - és azt hisszük, a te utazásod sem az.',
   },
   {
     num: '04',
     title: 'Az út mint élmény',
-    body: 'A cél nem a végpont, hanem maga az út. Minden fordulat, minden gerinc, minden hajnali köd és tábortűz — ezek alkotják az utazást.',
+    body: 'A cél nem a végpont, hanem maga az út. Minden fordulat, minden gerinc, minden hajnali köd és tábortűz - ezek alkotják az utazást.',
   },
 ]
 
@@ -44,7 +44,7 @@ export default function AboutPage() {
           <div className="absolute inset-0">
             <Image
               src="/images/hero-landscape.jpg"
-              alt="Dombos magyar táj — a természetjáró kalandtúrák világa"
+              alt="Dombos magyar táj - a természetjáró kalandtúrák világa"
               fill
               priority
               className="object-cover object-center opacity-25"
@@ -59,7 +59,7 @@ export default function AboutPage() {
               Rólunk
             </h1>
             <p className="font-mono text-sm text-white/55 leading-relaxed max-w-xl">
-              Az ösvény nem ér véget a célnál — ott kezdődik. Ez az a mondat, amely leírja, miért csináljuk, amit csinálunk.
+              Az ösvény nem ér véget a célnál - ott kezdődik. Ez az a mondat, amely leírja, miért csináljuk, amit csinálunk.
             </p>
           </div>
         </section>
@@ -73,24 +73,24 @@ export default function AboutPage() {
                 Egy egyszerű kérdésből nőtt ki minden
               </h2>
               <p className="font-mono text-sm leading-relaxed text-muted-foreground">
-                Évekkel ezelőtt, egy hosszabb erdei gyaloglás közben tettük fel magunknak a kérdést: miért nincs olyan túraszolgáltatás, amely valóban az élményre épít — nem a turistautakra, nem az ismert helyszínekre, hanem a valódi természeti terepekre?
+                Évekkel ezelőtt, egy hosszabb erdei gyaloglás közben tettük fel magunknak a kérdést: miért nincs olyan túraszolgáltatás, amely valóban az élményre épít - nem a turistautakra, nem az ismert helyszínekre, hanem a valódi természeti terepekre?
               </p>
               <p className="font-mono text-sm leading-relaxed text-muted-foreground">
-                A Magyar Match Tours ebből az igényből született. Nem egy sportteljesítményt kínálunk, nem látványosságokat — hanem valódi, szerzői utazásokat, amelyek a természetjárás lényegéről szólnak.
+                A Magyar Match Tours ebből az igényből született. Nem egy sportteljesítményt kínálunk, nem látványosságokat - hanem valódi, szerzői utazásokat, amelyek a természetjárás lényegéről szólnak.
               </p>
               <p className="font-mono text-sm leading-relaxed text-muted-foreground">
                 Minden útvonalunkat magunk tervezzük, magunk járjuk be újra és újra, és minden alkalommal valami újat fedezünk fel. Mert a természet sem ismétli önmagát soha teljesen.
               </p>
               <div className="border-l-2 border-amber pl-5 mt-2">
                 <p className="font-serif text-lg italic text-ink leading-relaxed">
-                  &ldquo;Az ösvény nem ér véget a célnál — ott kezdődik.&rdquo;
+                  &ldquo;Az ösvény nem ér véget a célnál - ott kezdődik.&rdquo;
                 </p>
               </div>
             </div>
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
                 src="/images/trail-forest.jpg"
-                alt="Erdei ösvény — a természetjáró utazás kezdete"
+                alt="Erdei ösvény - a természetjáró utazás kezdete"
                 fill
                 className="object-cover"
               />
@@ -123,7 +123,7 @@ export default function AboutPage() {
         <section className="relative h-72 md:h-96 overflow-hidden">
           <Image
             src="/images/mountain-dawn.jpg"
-            alt="Hajnali ködfelhő a völgy felett — természetjáró hangulat"
+            alt="Hajnali ködfelhő a völgy felett - természetjáró hangulat"
             fill
             className="object-cover object-center"
           />
@@ -160,7 +160,7 @@ export default function AboutPage() {
               <div className="flex flex-col gap-6">
                 <p className="font-mono text-[11px] tracking-[0.3em] uppercase text-amber mb-2">Kapcsolat</p>
                 <p className="font-mono text-sm text-muted-foreground leading-relaxed">
-                  Kérdésed van, vagy egyedi csoportos túrát tervezel? Látogass el a kapcsolatfelvételi oldalra — örömmel válaszolunk minden megkeresésre.
+                  Kérdésed van, vagy egyedi csoportos túrát tervezel? Látogass el a kapcsolatfelvételi oldalra - örömmel válaszolunk minden megkeresésre.
                 </p>
                 <Link
                   href="/kapcsolat"

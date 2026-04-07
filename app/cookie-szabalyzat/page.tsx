@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 import CookieBanner from '@/components/cookie-banner'
 
 export const metadata: Metadata = {
-  title: 'Cookie-szabályzat — Magyar Match Tours',
+  title: 'Cookie-szabályzat - Magyar Match Tours',
   description: 'A Magyar Match Tours / K.C. NTOMATA LIMITED cookie (süti) szabályzata.',
 }
 
@@ -22,7 +22,7 @@ const cookieTypes = [
     required: false,
     retention: 'Legfeljebb 26 hónap',
     purpose: 'A weboldal látogatottságának és használati szokásainak mérésére szolgálnak. Segítenek megérteni, hogyan használják látogatóink az oldalt, hogy javíthassuk a felhasználói élményt.',
-    examples: '_ga, _gid (Google Analytics — csak hozzájárulással)',
+    examples: '_ga, _gid (Google Analytics - csak hozzájárulással)',
   },
   {
     name: 'Funkcionális sütik',

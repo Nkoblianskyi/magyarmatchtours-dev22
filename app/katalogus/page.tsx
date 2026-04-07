@@ -7,7 +7,7 @@ import CookieBanner from '@/components/cookie-banner'
 import { tours } from '@/lib/tours-data'
 
 export const metadata: Metadata = {
-  title: 'Túrakatalógus — Magyar Match Tours',
+  title: 'Túrakatalógus - Magyar Match Tours',
   description:
     'Fedezd fel szerzői természetjáró kalandtúráinkat: kerékpáros expedíciók, gyalogos erdei utak, völgyátjárók és folyómenti vándorlások Magyarországon.',
 }
@@ -24,7 +24,7 @@ export default function CatalogPage() {
           <div className="absolute inset-0">
             <Image
               src="/images/valley-panorama.jpg"
-              alt="Völgypanoráma — természetjáró kalandtúrák Magyarországon"
+              alt="Völgypanoráma - természetjáró kalandtúrák Magyarországon"
               fill
               priority
               className="object-cover object-center opacity-30"
@@ -39,7 +39,7 @@ export default function CatalogPage() {
               Túrakatalógus
             </h1>
             <p className="font-mono text-sm text-white/60 leading-relaxed max-w-xl">
-              Minden túra egyedi — nem ismételt, nem sablon. Válassz az útvonalak között, és találd meg azt, amelyik szól hozzád.
+              Minden túra egyedi - nem ismételt, nem sablon. Válassz az útvonalak között, és találd meg azt, amelyik szól hozzád.
             </p>
           </div>
         </section>
@@ -127,7 +127,7 @@ export default function CatalogPage() {
                 Nem találtad a megfelelőt?
               </p>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-white text-balance">
-                Írj nekünk — alkotunk egyet neked.
+                Írj nekünk - alkotunk egyet neked.
               </h2>
             </div>
             <Link

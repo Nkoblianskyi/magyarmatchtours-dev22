@@ -63,7 +63,7 @@ export default function ContactPage() {
           <div className="absolute inset-0">
             <Image
               src="/images/river-path.jpg"
-              alt="Folyóparti ösvény — kapcsolatfelvétel"
+              alt="Folyóparti ösvény - kapcsolatfelvétel"
               fill
               priority
               className="object-cover object-center opacity-25"

@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 import CookieBanner from '@/components/cookie-banner'
 
 export const metadata: Metadata = {
-  title: 'Adatvédelmi irányelvek — Magyar Match Tours',
+  title: 'Adatvédelmi irányelvek - Magyar Match Tours',
   description: 'A Magyar Match Tours / K.C. NTOMATA LIMITED adatvédelmi irányelvei.',
 }
 
@@ -104,13 +104,13 @@ export default function PrivacyPage() {
                 <h2 className="font-serif text-2xl font-bold text-ink">6. Az érintett jogai</h2>
                 <p>A GDPR alapján az alábbi jogokat gyakorolhatod:</p>
                 <ul className="list-disc list-inside flex flex-col gap-2 pl-2">
-                  <li><strong className="text-foreground">Hozzáférési jog</strong> — tájékoztatást kérhetsz a rólad tárolt adatokról</li>
-                  <li><strong className="text-foreground">Helyesbítési jog</strong> — kérheted a pontatlan adatok helyesbítését</li>
-                  <li><strong className="text-foreground">Törlési jog</strong> — kérheted az adataid törlését (&ldquo;az elfeledtetéshez való jog&rdquo;)</li>
+                  <li><strong className="text-foreground">Hozzáférési jog</strong> - tájékoztatást kérhetsz a rólad tárolt adatokról</li>
+                  <li><strong className="text-foreground">Helyesbítési jog</strong> - kérheted a pontatlan adatok helyesbítését</li>
+                  <li><strong className="text-foreground">Törlési jog</strong> - kérheted az adataid törlését (&ldquo;az elfeledtetéshez való jog&rdquo;)</li>
                   <li><strong className="text-foreground">Az adatkezelés korlátozásához való jog</strong></li>
-                  <li><strong className="text-foreground">Adathordozhatósági jog</strong> — kérheted az adataid géppel olvasható formátumban történő kiadását</li>
-                  <li><strong className="text-foreground">Tiltakozási jog</strong> — tiltakozhatsz a jogos érdeken alapuló adatkezelés ellen</li>
-                  <li><strong className="text-foreground">Hozzájárulás visszavonása</strong> — bármikor visszavonhatod a korábban adott hozzájárulásod</li>
+                  <li><strong className="text-foreground">Adathordozhatósági jog</strong> - kérheted az adataid géppel olvasható formátumban történő kiadását</li>
+                  <li><strong className="text-foreground">Tiltakozási jog</strong> - tiltakozhatsz a jogos érdeken alapuló adatkezelés ellen</li>
+                  <li><strong className="text-foreground">Hozzájárulás visszavonása</strong> - bármikor visszavonhatod a korábban adott hozzájárulásod</li>
                 </ul>
                 <p>
                   Jogaid gyakorlásához írj az <a href="mailto:info@magyarmatchtours.com" className="text-amber underline">info@magyarmatchtours.com</a> e-mail-címre. Panasz esetén fordulhatsz az illetékes felügyeleti hatósághoz is.

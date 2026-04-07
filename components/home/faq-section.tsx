@@ -14,11 +14,11 @@ const faqs = [
   },
   {
     q: 'Mik azok a "szerzői" túrák?',
-    a: 'Túráink nem másolnak ismert touristautakat. Minden útvonal saját terepismeretünk és tapasztalatunk alapján jött létre — rejtekajtókon, nem jelölt erdészeti utakon, természeti átkelőkön és csendes mezőkön keresztül. Minden túra egyedi és megismételhetetlen összeállítás.',
+    a: 'Túráink nem másolnak ismert touristautakat. Minden útvonal saját terepismeretünk és tapasztalatunk alapján jött létre - rejtekajtókon, nem jelölt erdészeti utakon, természeti átkelőkön és csendes mezőkön keresztül. Minden túra egyedi és megismételhetetlen összeállítás.',
   },
   {
     q: 'Mit érdemes magunkkal vinni?',
-    a: 'Minden túra visszaigazolójában részletes felszerelési ajánlót küldünk, az adott útvonalhoz és évszakhoz igazítva. Az alapelv: amit nem viszel magaddal, azt nem kell cipelned — de amire szükséged lehet, azt ne hagyd otthon.',
+    a: 'Minden túra visszaigazolójában részletes felszerelési ajánlót küldünk, az adott útvonalhoz és évszakhoz igazítva. Az alapelv: amit nem viszel magaddal, azt nem kell cipelned - de amire szükséged lehet, azt ne hagyd otthon.',
   },
   {
     q: 'Lehet-e csoportos részvételt kérni?',
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: 'Mi történik rossz időjárás esetén?',
-    a: 'A természet nem mindig együttműködő — és ez a varázs része. Enyhébb esőre felkészítünk, súlyosabb időjárás esetén módosítjuk vagy elhalasztjuk az útvonalat. Biztonságod az első, az élmény pedig sokféleképpen megszerezhető.',
+    a: 'A természet nem mindig együttműködő - és ez a varázs része. Enyhébb esőre felkészítünk, súlyosabb időjárás esetén módosítjuk vagy elhalasztjuk az útvonalat. Biztonságod az első, az élmény pedig sokféleképpen megszerezhető.',
   },
 ]
 
@@ -44,7 +44,7 @@ export default function FaqSection() {
               Amire kíváncsi vagy
             </h2>
             <p className="font-mono text-sm text-muted-foreground mt-6 leading-relaxed max-w-sm">
-              Ha nem találod a választ a kérdésedre, írj nekünk a kapcsolatfelvételi oldalon — örömmel válaszolunk.
+              Ha nem találod a választ a kérdésedre, írj nekünk a kapcsolatfelvételi oldalon - örömmel válaszolunk.
             </p>
           </div>
 

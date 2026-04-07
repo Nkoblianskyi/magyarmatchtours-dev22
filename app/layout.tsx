@@ -14,9 +14,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Magyar Match Tours — Szabadtéri Kalandtúrák Magyarországon',
+  title: 'Magyar Match Tours - Szabadtéri Kalandtúrák Magyarországon',
   description:
-    'Egyedi, természetjáró kalandtúrák Magyarország erdeiben, dombjai között és folyóvölgyeiben. Kerékpáros, gyalogos és erdei éjszakázós utak — minden út egy igazi történet.',
+    'Egyedi, természetjáró kalandtúrák Magyarország erdeiben, dombjai között és folyóvölgyeiben. Kerékpáros, gyalogos és erdei éjszakázós utak - minden út egy igazi történet.',
   generator: 'v0.app',
   metadataBase: new URL('https://magyarmatchtours.com'),
   openGraph: {

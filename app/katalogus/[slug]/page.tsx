@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tour = tours.find((t) => t.slug === slug)
   if (!tour) return {}
   return {
-    title: `${tour.title} — Magyar Match Tours`,
+    title: `${tour.title} - Magyar Match Tours`,
     description: tour.shortDescription,
   }
 }
@@ -201,7 +201,7 @@ export default async function TourDetailPage({ params }: Props) {
                   Érdekel ez az útvonal?
                 </p>
                 <p className="font-mono text-xs text-white/60 leading-relaxed">
-                  Vedd fel velünk a kapcsolatot — egyeztetünk az időpontokról és a részletekről.
+                  Vedd fel velünk a kapcsolatot - egyeztetünk az időpontokról és a részletekről.
                 </p>
                 <Link
                   href="/kapcsolat"

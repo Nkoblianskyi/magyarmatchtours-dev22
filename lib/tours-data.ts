@@ -21,14 +21,14 @@ export type Tour = {
 export const tours: Tour[] = [
   {
     slug: 'erdei-vadonvezeto-tura',
-    title: 'Erdei vadonvezető — Őszi lomb alatt',
+    title: 'Erdei vadonvezető - Őszi lomb alatt',
     type: 'Gyalogos',
     duration: '3 nap / 2 éjszaka',
     difficulty: 'Közepes',
     shortDescription:
-      'Három nap az ismeretlen erdő szívében — éjszakázás a szabad ég alatt, csendes völgyek, hajnali párás erdők és belső megújulás.',
+      'Három nap az ismeretlen erdő szívében - éjszakázás a szabad ég alatt, csendes völgyek, hajnali párás erdők és belső megújulás.',
     fullDescription: [
-      'Ez a túra nem egy teljesítménytúra. Nem az a kérdés, hány kilométert teszel meg — hanem az, hogy mit hagysz magad mögött.',
+      'Ez a túra nem egy teljesítménytúra. Nem az a kérdés, hány kilométert teszel meg - hanem az, hogy mit hagysz magad mögött.',
       'Az útvonal egy tölgyes erdő széléről indul, át egy mocsárréten, fel egy bükkös gerinc mentén, le egy félig titkos forráshoz, majd az éjszakai tábor helyéig, ahol a tüzet magunk rakjuk.',
       'Reggelente őszi köd fogad. Délelőtt a lomb áttöri a fényt. Esténként az erdő saját hangján szól hozzád.',
     ],
@@ -57,13 +57,13 @@ export const tours: Tour[] = [
       'Saját étel és ital',
       'Odautazás a gyülekezési ponthoz',
     ],
-    nextDates: ['2025. szeptember 12–14.', '2025. október 3–5.', '2025. október 24–26.'],
+    nextDates: ['2026. szeptember 12-14.', '2026. október 3-5.', '2026. október 24-26.'],
     beforeText:
       'Napokkal előtte más leszel. Az ismeretlen erdő képe ott kísér, és ez az izgatottság a legjobb felkészítő.',
     duringText:
       'A harmadik kilométer után elfelejted a hétköznapokat. Csak a lépések vannak, a szél, a fény. Ez az igazi jelenlét.',
     afterText:
-      'Valami megmaradt. Nem a kilométerek száma — hanem az a reggeli csend, amikor a köd lassan felszállt a fák fölé.',
+      'Valami megmaradt. Nem a kilométerek száma - hanem az a reggeli csend, amikor a köd lassan felszállt a fák fölé.',
   },
   {
     slug: 'dombvideki-kerekparos-expedicio',
@@ -72,11 +72,11 @@ export const tours: Tour[] = [
     duration: '5 nap / 4 éjszaka',
     difficulty: 'Haladó',
     shortDescription:
-      'Öt nap kavicsos ösvényeken, dombhátakon és völgyek között — Magyarország belső tájainak legszebb szerzői kerékpárútja.',
+      'Öt nap kavicsos ösvényeken, dombhátakon és völgyek között - Magyarország belső tájainak legszebb szerzői kerékpárútja.',
     fullDescription: [
-      'Ez a túra egy igazi expedíció. Nem aszfalton, hanem kavicsúton, dülőutakon és erdészeti pályákon haladsz. A terep változó — lapos mezők, meredek dombhátak, és olyan völgyek, amelyeket senkinek sem jutna eszébe kerékpározni.',
+      'Ez a túra egy igazi expedíció. Nem aszfalton, hanem kavicsúton, dülőutakon és erdészeti pályákon haladsz. A terep változó - lapos mezők, meredek dombhátak, és olyan völgyek, amelyeket senkinek sem jutna eszébe kerékpározni.',
       'Pontosan ezért csináljuk.',
-      'Az útvonal minden napja más karakterű. Az első nap a rálépés — a test szokja a ritmust. A harmadik nap az áttörés. Az utolsó nap a megérkezés, amelyet nem felejt el az ember.',
+      'Az útvonal minden napja más karakterű. Az első nap a rálépés - a test szokja a ritmust. A harmadik nap az áttörés. Az utolsó nap a megérkezés, amelyet nem felejt el az ember.',
     ],
     image: '/images/cycling-path.jpg',
     imageAlt: 'Kavicsos kerékpárút mezők és rétek között',
@@ -86,7 +86,7 @@ export const tours: Tour[] = [
       { src: '/images/hero-landscape.jpg', alt: 'Nyílt táj és kerékpárút' },
     ],
     highlights: [
-      'Napi 40–60 km kavicsos terepen',
+      'Napi 40-60 km kavicsos terepen',
       'Teljesen autómentes napokon',
       'Szerzői útvonal, nincs ismételt szakasz',
       'Panorámás éjszakai pihenők',
@@ -104,7 +104,7 @@ export const tours: Tour[] = [
       'Étkezés',
       'Odautazás',
     ],
-    nextDates: ['2025. augusztus 8–12.', '2025. szeptember 5–9.', '2025. szeptember 26–30.'],
+    nextDates: ['2026. augusztus 8-12.', '2026. szeptember 5-9.', '2026. szeptember 26-30.'],
     beforeText:
       'A lábak még nem tudják, mi vár rájuk. De a szíved már sejti, hogy ez más lesz, mint minden eddigi.',
     duringText:
@@ -114,16 +114,16 @@ export const tours: Tour[] = [
   },
   {
     slug: 'volgyatjaro-ejszakas-tura',
-    title: 'Völgyátjáró — Éjszakai ébredés',
+    title: 'Völgyátjáró - Éjszakai ébredés',
     type: 'Vegyes terep',
     duration: '4 nap / 3 éjszaka',
     difficulty: 'Nehéz',
     shortDescription:
       'Négy nap a völgyek labirintusában, hajnali indulásokkal, csillagos éjszakákkal és olyan kilátópontokkal, amelyekre nincsenek jelzőtáblák.',
     fullDescription: [
-      'Egyes napok hajnali négykor indulnak. Ez nem büntetés — ez a jutalom. Az a fény, amelyet hajnalban egy dombgerincről látsz, nem ismétlődik meg napsütéses délután.',
-      'A völgyátjáró útvonal nem lineáris — kanyarog, visszakanyarodik, meglepetést tartogat. Néhol vizes a talaj, néhol szikla van. Mindig máshogy fest a táj.',
-      'Ez a túra azoknak szól, akik nem félnek a nehezebbtől — és tudják, hogy a legnehezebb napokból lesz a legjobb történet.',
+      'Egyes napok hajnali négykor indulnak. Ez nem büntetés - ez a jutalom. Az a fény, amelyet hajnalban egy dombgerincről látsz, nem ismétlődik meg napsütéses délután.',
+      'A völgyátjáró útvonal nem lineáris - kanyarog, visszakanyarodik, meglepetést tartogat. Néhol vizes a talaj, néhol szikla van. Mindig máshogy fest a táj.',
+      'Ez a túra azoknak szól, akik nem félnek a nehezebbtől - és tudják, hogy a legnehezebb napokból lesz a legjobb történet.',
     ],
     image: '/images/mountain-dawn.jpg',
     imageAlt: 'Hajnali ködfelhő völgy felett, sziklás gerincen állva',
@@ -150,24 +150,24 @@ export const tours: Tour[] = [
       'Étkezés',
       'Odautazás a start ponthoz',
     ],
-    nextDates: ['2025. augusztus 22–25.', '2025. szeptember 19–22.', '2025. október 10–13.'],
+    nextDates: ['2026. augusztus 22-25.', '2026. szeptember 19-22.', '2026. október 10-13.'],
     beforeText:
-      'Kicsit félsz. Jól van. Ez jelenti, hogy komolyan veszed, ami előtted áll — és ez az igazi felkészülés.',
+      'Kicsit félsz. Jól van. Ez jelenti, hogy komolyan veszed, ami előtted áll - és ez az igazi felkészülés.',
     duringText:
-      'Hajnali négykor, amikor a világ alszik és te már elindultál — akkor tudod, miért csináltad. Ez az a perc.',
+      'Hajnali négykor, amikor a világ alszik és te már elindultál - akkor tudod, miért csináltad. Ez az a perc.',
     afterText:
-      'Napokig alszol mélyebben. A test emlékszik. A nehéz napok nem nyomnak — emelnek, ha már mögötted vannak.',
+      'Napokig alszol mélyebben. A test emlékszik. A nehéz napok nem nyomnak - emelnek, ha már mögötted vannak.',
   },
   {
     slug: 'folyomenti-vandoras',
-    title: 'Folyómenti vándorlás — Csendes partok',
+    title: 'Folyómenti vándorlás - Csendes partok',
     type: 'Gyalogos',
     duration: '2 nap / 1 éjszaka',
     difficulty: 'Könnyű',
     shortDescription:
-      'Egy hétvége a folyó mellett — nincs sietség, csak lépések, víz, madárszó és az az érzés, hogy végre időd van megállni.',
+      'Egy hétvége a folyó mellett - nincs sietség, csak lépések, víz, madárszó és az az érzés, hogy végre időd van megállni.',
     fullDescription: [
-      'Ez a legkönnyebb belépési pontunk — de ne gondold, hogy kevésbé értékes. Két nap a folyó mentén elvarázsol, még ha "csak" könnyű terepen jársz is.',
+      'Ez a legkönnyebb belépési pontunk - de ne gondold, hogy kevésbé értékes. Két nap a folyó mentén elvarázsol, még ha "csak" könnyű terepen jársz is.',
       'A folyó ritmusa lassít. A partok váltakoznak: hol sűrű fűz alatt, hol nyílt réteken haladsz. Éjszaka a patak zubog, reggel a köd száll.',
     ],
     image: '/images/river-path.jpg',
@@ -178,7 +178,7 @@ export const tours: Tour[] = [
       { src: '/images/mountain-dawn.jpg', alt: 'Hajnali köd a folyó felett' },
     ],
     highlights: [
-      'Napi 12–18 km lapos terepen',
+      'Napi 12-18 km lapos terepen',
       'Folyóparti tábor',
       'Ideális első természetjáró élménynek',
       'Maximum 10 fő/csoport',
@@ -193,7 +193,7 @@ export const tours: Tour[] = [
       'Étkezés',
       'Odautazás',
     ],
-    nextDates: ['2025. augusztus 2–3.', '2025. augusztus 23–24.', '2025. szeptember 13–14.', '2025. október 4–5.'],
+    nextDates: ['2026. augusztus 2-3.', '2026. augusztus 23-24.', '2026. szeptember 13-14.', '2026. október 4-5.'],
     beforeText:
       'Nincs nagy felkészülés. Csak pack be a hátizsákot és engedj el mindent, amit a héten magaddal cipelted.',
     duringText:
@@ -203,15 +203,15 @@ export const tours: Tour[] = [
   },
   {
     slug: 'gerincturo-magaspont',
-    title: 'Gerinctúra — A magasság csöndje',
+    title: 'Gerinctúra - A magasság csöndje',
     type: 'Gyalogos',
     duration: '2 nap / 1 éjszaka',
     difficulty: 'Közepes',
     shortDescription:
-      'Egy gerincen végigmenni különleges dolog: mindkét oldalon a táj, a szél közvetlenül fúj, és érzed, hogy fent vagy — fizikailag és lelkileg is.',
+      'Egy gerincen végigmenni különleges dolog: mindkét oldalon a táj, a szél közvetlenül fúj, és érzed, hogy fent vagy - fizikailag és lelkileg is.',
     fullDescription: [
       'Ez a túra gerincvonulaton vezet. Bal oldalt egy völgy, jobb oldalt egy másik. Fent a szél. Alattad a világ.',
-      'A gerinc nem egyszerű terep — de nem is kegyetlen. A kihívás mértéke pont az, ami által valódi élménnyé válik.',
+      'A gerinc nem egyszerű terep - de nem is kegyetlen. A kihívás mértéke pont az, ami által valódi élménnyé válik.',
     ],
     image: '/images/valley-panorama.jpg',
     imageAlt: 'Panorámakilátás dombgerincről völgy felett',
@@ -223,30 +223,30 @@ export const tours: Tour[] = [
     highlights: [
       '360 fokos panorámás részek',
       'Szélvédett gerincoldali tábor',
-      'Napi 18–25 km',
+      'Napi 18-25 km',
       'Maximum 8 fő/csoport',
     ],
     included: ['Útvezetés', 'Felkészítő anyag', 'Tábori logisztika'],
     notIncluded: ['Személyes felszerelés', 'Étkezés', 'Odautazás'],
-    nextDates: ['2025. augusztus 16–17.', '2025. szeptember 6–7.', '2025. október 18–19.'],
+    nextDates: ['2026. augusztus 16-17.', '2026. szeptember 6-7.', '2026. október 18-19.'],
     beforeText:
-      'A gerinc képe megmarad. Napokig visszatér a gondolataidba, és ez jó jel — azt jelenti, a testednek és az elmédnek egyaránt szüksége van erre.',
+      'A gerinc képe megmarad. Napokig visszatér a gondolataidba, és ez jó jel - azt jelenti, a testednek és az elmédnek egyaránt szüksége van erre.',
     duringText:
-      'A szél nem engedi, hogy gondolkodj. Csak érzed a felszabadulást — a tér, az ég, az ösvény maga.',
+      'A szél nem engedi, hogy gondolkodj. Csak érzed a felszabadulást - a tér, az ég, az ösvény maga.',
     afterText:
       'Hazaértél. A várost most kicsit magasabbról látod. Metaforikusan és valójában is.',
   },
   {
     slug: 'mehesz-ut-tavaszi-mezo',
-    title: 'Méhész-út — Tavaszi mezők átkelése',
+    title: 'Méhész-út - Tavaszi mezők átkelése',
     type: 'Kerékpáros',
     duration: '1 nap',
     difficulty: 'Könnyű',
     shortDescription:
-      'Egynapos kerékpáros kaland virágzó tavaszi mezőkön, szélmalmok előtti kavicsokon és elhagyott dülőutakon — ideális bevezető és lélekfrissítő.',
+      'Egynapos kerékpáros kaland virágzó tavaszi mezőkön, szélmalmok előtti kavicsokon és elhagyott dülőutakon - ideális bevezető és lélekfrissítő.',
     fullDescription: [
       'Ha csak egy napod van, ez a túra a legjobb döntés. Egynapos körkerékpározás tavaszi mezőkön, illatos réteken és csendes dülőutakon.',
-      'A neve onnan ered, hogy az útvonalon egykor méhészek vándoroltak a virágzó tájak között. Ma te teszel ugyanígy — csak kerékpárral.',
+      'A neve onnan ered, hogy az útvonalon egykor méhészek vándoroltak a virágzó tájak között. Ma te teszel ugyanígy - csak kerékpárral.',
     ],
     image: '/images/cycling-path.jpg',
     imageAlt: 'Tavaszi kerékpárút virágzó mezők között',
@@ -263,7 +263,7 @@ export const tours: Tour[] = [
     ],
     included: ['Útvezetés', 'Napi útvonaltérkép'],
     notIncluded: ['Saját kerékpár és felszerelés', 'Étkezés', 'Odautazás'],
-    nextDates: ['2025. augusztus 9.', '2025. augusztus 30.', '2025. szeptember 20.', '2025. október 11.'],
+    nextDates: ['2026. augusztus 9.', '2026. augusztus 30.', '2026. szeptember 20.', '2026. október 11.'],
     beforeText:
       'Reggel felkelsz és tudod: ma nem ülsz irodában. Ma a mezők között tekersz. Ez a legjobb érzés pénteken este.',
     duringText:
