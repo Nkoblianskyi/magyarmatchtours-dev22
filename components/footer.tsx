@@ -10,10 +10,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <Link href="/" className="flex items-center gap-2" aria-label="Magyar Match Tours főoldal">
             <Image src="/favicon.ico" alt="Magyar Match Tours logo" width={32} height={32} />
-            <span
-              className={`font-serif text-lg font-bold tracking-tight transition-colors duration-300 ${scrolled ? 'text-ink' : 'text-white'
-                }`}
-            >
+            <span className="font-serif text-lg font-bold tracking-tight text-white transition-colors duration-300">
               Magyar Match Tours
             </span>
           </Link>
